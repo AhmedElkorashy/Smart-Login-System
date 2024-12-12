@@ -53,7 +53,7 @@ function loginUser() {
         console.log(signUp[userIndex].name);
 
         localStorage.setItem("userName", userNameToStore);
-        window.location.href = "./../home.html";
+        window.location.href = "../home.html";
       } else {
         msgIncorrectPassword.classList.remove("d-none");
         msgAllInputs.classList.add("d-none");
